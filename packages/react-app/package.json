@@ -39,7 +39,7 @@
     "bnc-notify": "^1.5.0",
     "dotenv": "^8.2.0",
     "eth-hooks": "2.3.19",
-    "ethers": "^5.4.1",
+    "ethers": "^5.7.0",
     "fortmatic": "^2.2.1",
     "graphiql": "^1.4.7",
     "graphql": "^15.3.0",
@@ -87,10 +87,10 @@
     }
   },
   "scripts": {
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts build",
     "eject": "react-scripts eject",
     "prestart": "node ./scripts/create_contracts.js",
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "lint": "eslint ./src/**/*.{js,jsx} --ignore-path ./.eslintignore --max-warnings=0",
     "ipfs": "node ./scripts/ipfs.js",
